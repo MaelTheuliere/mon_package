@@ -1,0 +1,16 @@
+Package: monpackage
+Title: Un exemple pour un atelier de demo
+Version: 0.0.0.9000
+Authors@R: 
+    person("mael", "theuliere", , "mael.theuliere@insee.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Une fonction, une classe, des tests.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    assertthat
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
